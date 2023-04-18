@@ -17,9 +17,17 @@
 <h4> Tecnologias Envolvidas </h4>
 
 <ul>	
-  <li>[Nodejs] https://nodejs.org/en </li>
-  <li>[Typescript] https://www.typescriptlang.org/</li>
-  <li>[MongoDB] https://www.mongodb.com/try/download/community </li>
+  <li>
+    <img align="center" alt="Nelson-Node" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg">           https://nodejs.org/en 
+  </li>
+  <li>
+    <img align="center" alt="Nelson-TypeScript" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg">
+    https://www.typescriptlang.org/
+  </li>
+  <li>
+    <img align="center" alt="Nelson-MongoDB" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg">
+    https://www.mongodb.com/try/download/community 
+  </li>
 </ul>
 
 <h4> Funcionalidades </h4>
@@ -38,6 +46,7 @@ $ npm i
 # Execute o projeto
 $ npm run dev
 # O projeto será inicializado em <exp:http://localhost:3000>
+# Caso prefira, você pode importar as collections do Banco de Dados na pasta collection_db
 ```
 
 <h3>Formato das requisições para edição do Postman ou Insominia.</h3>
@@ -100,5 +109,17 @@ http://localhost:3000/chores/id (exemplo de id: EF-01)
 http://localhost:3000/chores/id (exemplo de id: EF-01)
 <br>Body empty (sem conteúdo no corpo da requisição)
 <br><br>
+<br><br>
+<br><br>
 
-Projeto executado por <a href="https://github.com/NelsonKobayashi" target="_blank">Nelson Kobayashi</a>
+
+<a href="https://github.com/NelsonKobayashi">
+<img src="https://avatars.githubusercontent.com/u/43545285?v=4" width="100px;" alt=""/>
+<br />
+<sub><b>Nelson Kobayashi</b></sub></a> <a href="https://www.linkedin.com/in/nelsonkobayashi/" title="linkedin">🚀✨</a>
+
+Projeto desenvolvido por Nelson Kobayashi 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-NelsonKobayashi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=(https://avatars.githubusercontent.com/u/43545285?v=4)=https://www.linkedin.com/in/nelsonkobayashi/)](https://www.linkedin.com/in/jardel-silva-oliveira-b9a330213/) 
+[![Gmail Badge](https://img.shields.io/badge/-koba.nelson@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:koba.nelson@gmail.com)](mailto:koba.nelson@gmail.com)
+
