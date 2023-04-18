@@ -1,33 +1,49 @@
 <p align="center">
-<img src="https://share.multcloud.link/share/2406f1bf-a05e-450f-bd71-58c88a8562f0"/>
+  <a href="https://academy.mjvinnovation.com/br/mjvschool/">
+    <img width=400px src="https://content.mjvinnovation.com/hubfs/MJV%20School/Logo%20School.jpeg"/>
+  </a>
 </p> 
 
 <h1 align="center"> Projeto Final DevSchool Node MJV</h1>
 
 <p align="center">
-<img  src="https://img.shields.io/static/v1?label=School Node MJV&message=Nelson Kobayashi&color=7159c1&style=for-the-badge&logo=ghost"/>
+  <img  src="https://img.shields.io/static/v1?label=School Node MJV&message=Nelson Kobayashi&color=7159c1&style=for-the-badge&logo=ghost"/>
 </p>
-  
 
 <h2>Overview</h2>
 <h4> Projeto de finalização do curso de Node da instituição DevSchool MJV.</h4>
 <p>API de Criação e manipulação de usuário e Tarefas.</p>
-<p>Para testar a aplicação localmente, basta baixar o repositório e dar npm install, assim o npm utilizará as dependências corretas para o projeto.</p>
 
 <h4> Tecnologias Envolvidas </h4>
 
 <ul>	
-	<li>[Nodejs] https://nodejs.org/en </li>
-	<li>[Typescript] https://www.typescriptlang.org/</li>
-	<li>[MongoDB] https://www.mongodb.com/try/download/community </li>
+  <li>[Nodejs] https://nodejs.org/en </li>
+  <li>[Typescript] https://www.typescriptlang.org/</li>
+  <li>[MongoDB] https://www.mongodb.com/try/download/community </li>
 </ul>
 
 <h4> Funcionalidades </h4>
 <p>CRUD completo (create, read, update e delete) tanto para usuário, quanto para tarefas.</p> 
 <p>Adicionado também validação de usuário para acesso às rotas através de Token gerado ao logar-se, prazo de inspiração de 1 hora.</p>
 
+<p>Para testar a aplicação localmente, basta baixar o repositório e dar npm install, assim o npm utilizará as dependências corretas para o projeto.</p>
+
+```bash
+# Clone este projeto
+$ git clone https://github.com/NelsonKobayashi/Projeto_Final-School_Node_MJV.git
+# Acesse
+$ cd Projeto_Final-School_Node_MJV.git através de algum terminal de sua preferência.
+# Instale as dependências
+$ npm i
+# Execute o projeto
+$ npm run dev
+# O projeto será inicializado em <exp:http://localhost:3000>
+```
+
 <h3>Formato das requisições para edição do Postman ou Insominia.</h3>
-<p><h3>User:</h3></p>
+<p>
+  <h3>User:</h3>
+</p>
 <b>Create User</b>: 
 http://localhost:3000/user
 <br>
@@ -53,7 +69,9 @@ http://localhost:3000/user/email@email.com
 <br>Body empty (sem conteúdo no corpo da requisição)
 <br><br>
 <br>
-<p><h3>Chores:</h3></p>
+<p>
+  <h3>Chores:</h3>
+</p>
 <b>Create Chores</b>: 
 http://localhost:3000/chores
 <br>
@@ -83,3 +101,4 @@ http://localhost:3000/chores/id (exemplo de id: EF-01)
 <br>Body empty (sem conteúdo no corpo da requisição)
 <br><br>
 
+Projeto executado por <a href="https://github.com/NelsonKobayashi" target="_blank">Nelson Kobayashi</a>
